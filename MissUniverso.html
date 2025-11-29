@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escándalo en Miss Universo 2025: Así se ha enredado el triunfo de Fátima Bosch</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        
+        header {
+            background: #1a1a1a;
+            color: white;
+            padding: 15px 0;
+            border-bottom: 3px solid #e10600;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .logo span {
+            color: #e10600;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #e10600;
+        }
+        
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('90.jpeg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+        
+        .meta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .meta span {
+            margin: 0 10px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .author {
+            font-weight: bold;
+        }
+        
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        .article-content {
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .article-content p {
+            margin-bottom: 20px;
+        }
+        
+        .article-content h2 {
+            margin: 30px 0 15px;
+            color: #e10600;
+            font-size: 1.5rem;
+        }
+        
+        .article-image {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .article-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .caption {
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        blockquote {
+            border-left: 4px solid #e10600;
+            padding-left: 20px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #555;
+        }
+        
+        
+        .sidebar {
+            background: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .sidebar h3 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e10600;
+            color: #1a1a1a;
+        }
+        
+        .related-article {
+            display: flex;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .related-article:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .related-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .related-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .related-content h4 {
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+        
+        .related-content h4 a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+        
+        .related-content h4 a:hover {
+            color: #e10600;
+        }
+        
+        .related-content p {
+            font-size: 0.85rem;
+            color: #666;
+        }
+        
+        
+        .gallery {
+            margin: 40px 0;
+        }
+        
+        .gallery h2 {
+            margin-bottom: 20px;
+            color: #1a1a1a;
+            text-align: center;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .gallery-item {
+            height: 150px;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        /* Videos */
+        .videos {
+            margin: 40px 0;
+        }
+        
+        .videos h2 {
+            margin-bottom: 20px;
+            color: #1a1a1a;
+            text-align: center;
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .video-card {
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        .video-info {
+            padding: 15px;
+        }
+        
+        .video-info h3 {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 40px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column h3 {
+            margin-bottom: 20px;
+            color: #e10600;
+        }
+        
+        .footer-column p {
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #e10600;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+       
+        @media (max-width: 900px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                order: -1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 15px;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0 10px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .meta {
+                flex-direction: column;
+            }
+            
+            .meta span {
+                margin: 5px 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+            
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">MISS<span>Universo</span></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Espectáculos</a></li>
+                        <li><a href="#">Farándula</a></li>
+                        <li><a href="#">Internacional</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Escándalo en Miss Universo 2025: Así se ha enredado el triunfo de Fátima Bosch</h1>
+            <div class="meta">
+                <span class="author">Por Diana Paola Pérez Lagunas</span>
+                <span>27 de Noviembre, 2025</span>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="container">
+        <div class="main-content">
+            
+            <div class="article-content">
+                <p>La edición 2025 de Miss Universo se ha visto envuelta en una de las controversias más grandes de su historia tras la coronación de Fátima Bosch, representante de España, cuyo triunfo ha sido cuestionado por irregularidades en el proceso de votación.</p>
+                
+                <div class="article-image">
+                    <img src="mexico.jpeg" width="1200" height="630" alt=""/>
+<div class="caption">Fátima Bosch durante la competencia final de Miss Universo 2025</div>
+                </div>
+                
+                <h2>La polémica decisión del jurado</h2>
+                
+                <p>Según fuentes cercanas a la organización, varios miembros del jurado internacional han expresado su malestar por la forma en que se llevó a cabo la votación final. "Hubo una clara presión para que Fátima resultara ganadora, a pesar de que otras candidatas tenían mejor puntuación en las etapas preliminares", declaró un juez que prefirió mantener el anonimato.</p>
+                
+                <p>La representante de México, Valeria Montes, quien era una de las favoritas según las apuestas, habría obtenido una puntuación más alta en la ronda de traje de gala y en la entrevista personal, pero misteriosamente perdió puntos cruciales en la votación final.</p>
+                
+                <blockquote>
+                    "Nunca en la historia de Miss Universo habíamos visto una controversia de esta magnitud. Esto podría cambiar para siempre la credibilidad del certamen"
+                    <br>- Analista de concursos de belleza
+                </blockquote>
+                
+                <h2>Reacción en redes sociales</h2>
+                
+                <p>Las redes sociales estallaron minutos después de la coronación, con el hashtag #MissUniversoFraude trending a nivel mundial. Miles de usuarios compartieron videos que parecen mostrar irregularidades en el momento del anuncio de la ganadora.</p>
+                
+                <p>Particularmente polémico resultó el momento en que la presentadora principal titubeó antes de anunciar el nombre de la ganadora, lo que muchos interpretaron como una señal de que había recibido instrucciones de último minuto.</p>
+                
+                <div class="article-image">
+                    <img src="fatima.jpeg" width="830" height="553" alt=""/>
+<div class="caption">El polémico momento de la coronación de Fátima Bosch</div>
+                </div>
+                
+                <h2>¿Qué dice la organización?</h2>
+                
+                <p>La organización de Miss Universo emitió un comunicado en el que niega categóricamente cualquier irregularidad en el proceso de selección. "El resultado refleja la decisión unánime del jurado internacional y seguimos todos los protocolos establecidos", señaló el texto.</p>
+                
+                <p>Sin embargo, esta declaración no ha calmado los ánimos, y varias delegaciones nacionales han amenazado con retirarse del certamen si no se realiza una auditoría independiente del proceso de votación.</p>
+                
+                <p>Mientras tanto, Fátima Bosch se ha mantenido en silencio sobre la controversia, limitándose a agradecer a sus seguidores a través de sus redes sociales. "Este sueño es para todos los que creyeron en mí", publicó en Instagram, sin hacer referencia a las acusaciones de fraude.</p>
+            </div>
+            
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <h3>Noticias Relacionadas</h3>
+                
+                <div class="related-article">
+                    <div class="related-content">
+                        <h4><a href="#">Las 10 candidatas más destacadas de Miss Universo 2025</a></h4>
+                        <p>Un repaso por las concursantes que brillaron en la competencia</p>
+                    </div>
+                </div>
+                
+                <div class="related-article">
+                    <div class="related-content">
+                        <h4><a href="#">Historia de Fátima Bosch: de modelo a Miss Universo</a></h4>
+                        <p>Conoce el recorrido de la polémica ganadora</p>
+                    </div>
+                </div>
+                
+                <div class="related-article">
+                    
+                    <div class="related-content">
+                        <h4><a href="#">Los escándalos más sonados de Miss Universo</a></h4>
+                        <p>Esta no es la primera vez que el certamen enfrenta controversias</p>
+                    </div>
+                </div>
+                
+                <div class="related-article">
+                    <div class="related-content">
+                        <h4><a href="#">¿Qué sigue para Fátima Bosch como Miss Universo?</a></h4>
+                        <p>Los retos que enfrentará la ganadora en medio de la polémica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+      
+            <h2>Video relacionado</h2>
+			<center><iframe width="572" height="322" src="https://www.youtube.com/embed/YHPXEoLwvNc" title="Así fue la coronación de Fátima Bosch, Miss Universe 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+		
+    
+
+    
+    <footer>
+            <div class="copyright">
+                <p><center>Diana Paola Pérez Lagunas</center></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
