@@ -1,91 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K7928WMNV9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K7928WMNV9');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escándalo en Miss Universo 2025: Así se ha enredado el triunfo de Fátima Bosch</title>
-    <style>
-        
+    <style> 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
         body {
             background-color: #f5f5f5;
             color: #333;
             line-height: 1.6;
         }
-        
         .container {
             width: 90%;
             max-width: 1100px;
             margin: 0 auto;
             padding: 0 15px;
         }
-        
-        
         header {
             background: #1a1a1a;
             color: white;
             padding: 15px 0;
             border-bottom: 3px solid #e10600;
         }
-        
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
         }
-        
         .logo {
             font-size: 24px;
             font-weight: bold;
             color: white;
             text-decoration: none;
         }
-        
         .logo span {
             color: #e10600;
         }
-        
         nav ul {
             display: flex;
             list-style: none;
         }
-        
         nav ul li {
             margin-left: 20px;
         }
-        
         nav ul li a {
             color: white;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s ease;
         }
-        
         nav ul li a:hover {
             color: #e10600;
         }
-        
-        
         .hero {
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('90.jpeg') no-repeat center center/cover;
             color: white;
             padding: 80px 0;
             text-align: center;
         }
-        
         .hero h1 {
             font-size: 2.5rem;
             margin-bottom: 20px;
             line-height: 1.3;
         }
-        
         .meta {
             display: flex;
             justify-content: center;
@@ -93,17 +86,14 @@
             margin-bottom: 20px;
             flex-wrap: wrap;
         }
-        
         .meta span {
             margin: 0 10px;
             font-size: 0.9rem;
             opacity: 0.8;
         }
-        
         .author {
             font-weight: bold;
         }
-        
         
         .main-content {
             display: grid;
